@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta http-equiv="refresh" content="0; url=web/html/index.html"/>
-<link rel="canonical" href="web/html/index.html"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Prince Dirk C. Erolin — Portfolio</title>
+<script>
+  if (window.innerWidth <= 768) {
+    window.location.replace('mobile/html/index.html');
+  } else {
+    window.location.replace('web/html/index.html');
+  }
+</script>
 </head>
 <body>
 <p>Redirecting to <a href="web/html/index.html">portfolio</a>...</p>
-<script>window.location.replace('web/html/index.html');</script>
 </body>
 </html>
